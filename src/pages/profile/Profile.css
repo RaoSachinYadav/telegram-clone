@@ -1,0 +1,27 @@
+/* Tooltip container */
+.tooltip2 {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.tooltiptext2 {
+  visibility: hidden;
+  width: 250px;
+  background-color: rgb(0, 0, 0, 0.8);
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip2 text - see examples below! */
+  position: absolute;
+  z-index: 1;
+  top: -83px;
+  left: 13px;
+}
+
+/* Show the tooltip2 text when you mouse over the tooltip2 container */
+.tooltip2:hover .tooltiptext2 {
+  visibility: visible;
+}
